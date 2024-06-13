@@ -1,0 +1,126 @@
+/*
+Author: Eduardo Reyes
+Date: June 11, 2024
+File: styles.css
+*/
+
+/* CSS Reset - Removing default margins, padding, and borders for consistency across browsers */
+body, header, nav, main, footer, img, h1, h3, ul {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* Style rules for body and images */
+body {
+    background-color: #f6eee4; /* Setting a background color for the page */
+}
+
+img {
+    max-width: 100%; /* Ensuring images don't overflow their containers */
+    display: block; /* Removing inline spacing below images */
+}
+
+/* Style rules for navigation area */
+nav {
+    background-color: #2a1f14; /* Dark background for the navigation bar */
+}
+
+nav ul {
+    list-style-type: none; /* Removing bullet points from list items */
+    text-align: center; /* Centering the navigation links */
+}
+
+nav li {
+    display: block;
+    font-size: 1.5em; /* Larger font size for navigation items */
+    font-family: Geneva, Arial, sans-serif; /* Using Geneva font or fallback to Arial/sans-serif */
+    font-weight: bold; /* Bold font for emphasis */
+    border-top: 0.5px solid #f6eee4; /* Adding a top border with the specified properties */
+}
+
+nav li a {
+    display: block; /* Making the whole list item clickable */
+    color: #f6eee4; /* Light text color for contrast against dark background */
+    padding: 0.5em 2em; /* Spacing around navigation links */
+    text-decoration: none; /* Removing underline from links */
+}
+
+/* Style rules for main content */
+main {
+    padding: 2%; /* Adding padding around the main content area */
+    font-family: Verdana, Arial, sans-serif; /* Using Verdana font or fallback to Arial/sans-serif */
+}
+
+main p {
+    font-size: 1.25em; /* Slightly larger font size for paragraph text */
+}
+
+main h3 {
+    padding-top: 2%; /* Adding space above h3 headings */
+}
+
+main ul {
+    list-style-type: square; /* Using square bullets for unordered lists */
+}
+
+/* Styling for links with class 'link' */
+.link {
+    color: #4d3319; /* Darker brown color for links */
+    text-decoration: none; /* Removing underline from links */
+    font-weight: bold; /* Bold text for links */
+    font-style: italic; /* Italic style for emphasis */
+}
+
+/* Styling for elements with class 'action' */
+.action {
+    font-size: 1.75em; /* Larger font size for action elements */
+    font-weight: bold; /* Bold text for emphasis */
+    text-align: center; /* Centering the text */
+}
+
+/* Styling for elements with class 'round' */
+.round {
+    border-radius: 6px; /* Adding rounded corners with a radius of 6px */
+}
+
+/* Styling for ul elements within the element with id 'info' */
+#info ul {
+    margin-left: 10%; /* Adding a left margin of 10% */
+}
+
+/* Centering content within elements with id 'contact' */
+#contact {
+    text-align: center;
+}
+
+/* Styling for elements with class 'tel-link' */
+.tel-link {
+    background-color: #2a1f14; /* Setting background color */
+    padding: 2%; /* Setting padding */
+    width: 80%; /* Setting width */
+    margin: 0 auto; /* Centering the element horizontally with auto margins */
+}
+
+/* Styling for anchor elements within the 'tel-link' class */
+.tel-link a {
+    color: #f6eee4; /* Setting text color */
+    text-decoration: none; /* Removing underline */
+    font-weight: bold; /* Bold text */
+}
+
+/* Style rules for footer content */
+footer {
+    text-align: center; /* Centering text in the footer */
+    font-size: 0.85em; /* Smaller font size for footer text */
+    background-color: #2a1f14; /* Matching footer background color with nav */
+    color: #f6eee4; /* Light text color for contrast against dark background */
+    padding: 1% 0; /* Vertical padding for spacing */
+}
+
+footer a {
+    color: #f3e6d8; /* Slightly different light color for footer links */
+    text-decoration: none; /* Removing underline from footer links */
+}
+
+
